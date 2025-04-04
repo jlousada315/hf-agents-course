@@ -1,6 +1,6 @@
 # HF Agents Course
 
-This repository contains code and examples for working with Hugging Face agents and the LlamaIndex framework.
+This repository contains code and examples for working with Hugging Face agents and different frameworks for building AI agents.
 
 ## Setup
 
@@ -28,12 +28,15 @@ HUGGINGFACE_API_TOKEN=your_token_here
 
 ## Project Structure
 
-- `my_llama_index.py`: Example implementation using LlamaIndex with Hugging Face models
-- `requirements.txt`: Project dependencies
+The project is organized into different directories, each focusing on a specific framework or approach:
+
+- `llamaindex/`: Examples and implementations using the LlamaIndex framework
+- `langgraph/`: Examples using the LangGraph framework for building agent workflows
+- `smolagents/`: Examples using the SmolAgents framework for lightweight agent implementations
 
 ## Usage
 
-[Add usage instructions here]
+Each directory contains its own set of examples and implementations. Navigate to the specific directory you're interested in and follow the instructions in the respective README files.
 
 ## Contributing
 
